@@ -354,6 +354,44 @@
                     </div>
                 </div>
 
+                <!-- New Page 20: Audio Tag Specifics -->
+                <div class="page">
+                    <div class="page-content">
+                        <h3>09. Audio Basics</h3>
+                        <div class="tag-desc">
+                            &lt;audio&gt; – Used for sound files.<br>
+                            Attributes: <b>controls</b> (player), <b>loop</b> (repeat), <b>muted</b>.
+                        </div>
+                        <div class="snippet-section">
+                            <div class="snippet-container">
+                                <pre><code class="language-html" contenteditable="true" spellcheck="false">&lt;!-- Audio with Controls and Loop --&gt;
+&lt;audio controls loop&gt;
+  &lt;source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg"&gt;
+  Your browser does not support the audio element.
+&lt;/audio&gt;
+
+&lt;p style="margin-top:10px; font-size:0.8rem; color:#666;"&gt;
+  This audio will loop continuously once started.
+&lt;/p&gt;</code></pre>
+                            </div>
+                            <button class="run-btn" data-output="out-audio">Run Preview →</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- New Page 21: Audio Output -->
+                <div class="page">
+                    <div class="page-content">
+                        <h3>Output: Sound Player</h3>
+                        <div class="output-wrapper pro-output">
+                            <div class="output-header">Live Rendering</div>
+                            <div class="output-container" id="out-audio">
+                                <div class="placeholder">Click "Run Preview" on the left</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Page 20: iframe -->
                 <div class="page">
                     <div class="page-content">
@@ -769,7 +807,7 @@
 
         <div class="controls">
             <button id="prev-page">← Previous</button>
-            <span id="page-num">1 / 43</span>
+            <span id="page-num">1 / 45</span>
             <button id="next-page">Next →</button>
         </div>
         
