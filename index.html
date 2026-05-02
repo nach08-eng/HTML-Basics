@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Mastery - Pro Revision Guide</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-glow"></div>
+    
+    <div class="container">
+        <header>
+            <h1>HTML<span>Pro</span>Revision</h1>
+            <p>50+ Tags • Interactive Examples • Master Class</p>
+        </header>
+
+        <div id="flipbook-wrapper">
+            <div id="flipbook" class="flipbook">
+                <!-- Page 1: Cover -->
+                <div class="page page-cover" data-density="hard">
+                    <div class="page-content">
+                        <div class="badge">Volume 1</div>
+                        <h2>The Encyclopedia of<br>HTML Tags</h2>
+                        <div class="divider"></div>
+                        <p>Interactive Revision Guide with Live Previews</p>
+                             
+                        <div class="flip-hint" style="margin-top: 2rem;">Start Flipping to Learn</div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="author-credit" style="margin-top: 2rem; font-weight: 600; font-size: larger; color:blanchedalmond;">
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Made by S.Nachammai
+                        </div>
+                    
+                    </div>
+                </div>
+                    
+                <!-- Page 2: Introduction -->
+                <div class="page">
+                    <div class="page-content">
+                        <h3>What is HTML?</h3>
+                        <p>HTML (HyperText Markup Language) is the standard language used to create and structure content on the web.</p>
+                        <div class="tag-desc">
+                            It defines the skeletal structure of a webpage, telling the browser where the text, images, and links go.
+                        </div>
+                        <div class="snippet-section">
+                            <div class="snippet-container">
+                                <pre><code class="language-html" contenteditable="true" spellcheck="false">&lt;!-- This is an HTML comment --&gt;
+&lt;p&gt;Hello World!&lt;/p&gt;</code></pre>
+                            </div>
+                            <button class="run-btn" data-output="out-intro">Run Preview →</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 3: Intro Output -->
+                <div class="page">
+                    <div class="page-content">
+                        <h3>Output: Basic Text</h3>
+                        <div class="output-wrapper pro-output">
+                            <div class="output-header">Live Rendering</div>
+                            <div class="output-container" id="out-intro">
+                                <div class="placeholder">Click "Run Preview" on the left</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 4: Root Elements I -->
+                <div class="page">
+                    <div class="page-content">
+                        <h3>01. Root Elements I</h3>
+                        <div class="tag-desc">
+                            &lt;html&gt; – Root of the document.<br>
+                            &lt;head&gt; – Meta information container.<br>
+                            &lt;title&gt; – Browser tab name.
+                        </div>
+                        <div class="snippet-section">
+                            <div class="snippet-container">
+                                <pre><code class="language-html" contenteditable="true" spellcheck="false">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;My Page&lt;/title&gt;
+  &lt;/head&gt;
+&lt;/html&gt;</code></pre>
+                            </div>
+                            <button class="run-btn" data-output="out-root1">Run Preview →</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 5: Root Elements I Output -->
+                <div class="page">
+                    <div class="page-content">
+                        <h3>Output: Root Structure</h3>
+                        <div class="output-wrapper pro-output">
+                            <div class="output-header">Live Rendering</div>
+                            <div class="output-container" id="out-root1">
+                                <div class="placeholder">Click "Run Preview" on the left</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 6: Root Elements II -->
+                <div class="page">
+                    <div class="page-content">
+                        <h3>02. Root Elements II</h3>
+                        <div class="tag-desc">
+                            &lt;body&gt; – The visible content area.<br>
+                            &lt;meta&gt; – Character set & viewport.<br>
+                            &lt;link&gt; – External CSS/Icons.
+                        </div>
+                        <div class="snippet-section">
+                            <div class="snippet-container">
+                                <pre><code class="language-html" contenteditable="true" spellcheck="false">&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;link rel="stylesheet" href="style.css"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Visible Content Here&lt;/h1&gt;
+&lt;/body&gt;</code></pre>
+                            </div>
+                            <button class="run-btn" data-output="out-root2">Run Preview →</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 7: Root Elements II Output -->
+                <div class="page">
+                    <div class="page-content">
+                        <h3>Output: Body & Meta</h3>
+                        <div class="output-wrapper pro-output">
+                            <div class="output-header">Live Rendering</div>
+                            <div class="output-container" id="out-root2">
+                                <div class="placeholder">Click "Run Preview" on the left</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 8: Content Tags - Headings -->
+                <div class="page">
+                    <div class="page-content">
+                        <h3>03. Headings</h3>
+                        <div class="tag-desc">
+                            &lt;h1&gt; to &lt;h6&gt; define the hierarchy of information on a page.
+                        </div>
+                        <div class="snippet-section">
+                            <div class="snippet-container">
+                                <pre><code class="language-html" contenteditable="true" spellcheck="false">&lt;h1&gt;H1 Heading&lt;/h1&gt;
+&lt;h2&gt;H2 Heading&lt;/h2&gt;
+&lt;h3&gt;H3 Heading&lt;/h3&gt;
+&lt;h4&gt;H4 Heading&lt;/h4&gt;
+&lt;h5&gt;H5 Heading&lt;/h5&gt;
+&lt;h6&gt;H6 Heading&lt;/h6&gt;</code></pre>
+                            </div>
+                            <button class="run-btn" data-output="out-headings">Run Preview →</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 9: Headings Output -->
+                <div class="page">
+                    <div class="page-content">
+                        <h3>Output: Headings</h3>
+                        <div class="output-wrapper pro-output">
+                            <div class="output-header">Live Rendering</div>
+                            <div class="output-container" id="out-headings">
+                                <div class="placeholder">Click "Run Preview" on the left</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 10: Content Tags - Paragraphs -->
+                <div class="page">
+                    <div class="page-content">
+                        <h3>04. Paragraphs & Breaks</h3>
+                        <div class="tag-desc">
+                            &lt;p&gt; – Block of text.<br>
+                            &lt;br&gt; – Force a single line break.<br>
+                            &lt;hr&gt; – Horizontal thematic line.
+                        </div>
+                        <div class="snippet-section">
+                            <div class="snippet-container">
+                                <pre><code class="language-html" contenteditable="true" spellcheck="false">&lt;p&gt;First Paragraph.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Second Paragraph&lt;br&gt;with a line break.&lt;/p&gt;</code></pre>
+                            </div>
+                            <button class="run-btn" data-output="out-para">Run Preview →</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 11: Para Output -->
+                <div class="page">
+                    <div class="page-content">
+                        <h3>Output: Text Flow</h3>
+                        <div class="output-wrapper pro-output">
+                            <div class="output-header">Live Rendering</div>
+                            <div class="output-container" id="out-para">
+                                <div class="placeholder">Click "Run Preview" on the left</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 12: Inline Styles -->
+                <div class="page">
+                    <div class="page-content">
+                        <h3>05. Inline Text Styles</h3>
+                        <div class="tag-desc">
+                            &lt;strong&gt; – Bold importance.<br>
+                            &lt;em&gt; – Italic emphasis.<br>
+                            &lt;mark&gt; – Yellow highlight.
+                        </div>
+                        <div class="snippet-section">
+                            <div class="snippet-container">
+                                <pre><code class="language-html" contenteditable="true" spellcheck="false">&lt;p&gt;This is &lt;strong&gt;Bold&lt;/strong&gt; text.&lt;/p&gt;
+&lt;p&gt;This is &lt;em&gt;Italic&lt;/em&gt; text.&lt;/p&gt;
+&lt;p&gt;This is &lt;mark&gt;Highlighted&lt;/mark&gt; text.&lt;/p&gt;</code></pre>
+                            </div>
+                            <button class="run-btn" data-output="out-inline">Run Preview →</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 13: Inline Styles Output -->
+                <div class="page">
+                    <div class="page-content">
+                        <h3>Output: Formatting</h3>
+                        <div class="output-wrapper pro-output">
+                            <div class="output-header">Live Rendering</div>
+                            <div class="output-container" id="out-inline">
+                                <div class="placeholder">Click "Run Preview" on the left</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 14: Links -->
+                <div class="page">
+                    <div class="page-content">
+                        <h3>06. Anchor Tag</h3>
+                        <div class="tag-desc">
+                            &lt;a&gt; – Creates hyperlinks to other pages or files.
+                        </div>
+                        <div class="snippet-section">
+                            <div class="snippet-container">
+                                <pre><code class="language-html" contenteditable="true" spellcheck="false">&lt;a href="https://google.com" target="_blank"&gt;
+  Visit Google
+&lt;/a&gt;</code></pre>
+                            </div>
+                            <button class="run-btn" data-output="out-link">Run Preview →</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 15: Links Output -->
+                <div class="page">
+                    <div class="page-content">
+                        <h3>Output: Hyperlinks</h3>
+                        <div class="output-wrapper pro-output">
+                            <div class="output-header">Live Rendering</div>
+                            <div class="output-container" id="out-link">
+                                <div class="placeholder">Click "Run Preview" on the left</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 16: Images -->
+                <div class="page">
+                    <div class="page-content">
+                        <h3>07. Media: Images</h3>
+                        <div class="tag-desc">
+                            &lt;img&gt; – Displays images. Use 'alt' for accessibility.
+                        </div>
+                        <div class="snippet-section">
+                            <div class="snippet-container">
+                                <pre><code class="language-html" contenteditable="true" spellcheck="false">&lt;img src="https://picsum.photos/200" 
+     alt="Random Image" 
+     style="width:100px; border-radius:8px;"&gt;</code></pre>
+                            </div>
+                            <button class="run-btn" data-output="out-img">Run Preview →</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 17: Images Output -->
+                <div class="page">
+                    <div class="page-content">
+                        <h3>Output: Image Rendering</h3>
+                        <div class="output-wrapper pro-output">
+                            <div class="output-header">Live Rendering</div>
+                            <div class="output-container" id="out-img">
+                                <div class="placeholder">Click "Run Preview" on the left</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 18: Video & Audio -->
+                <div class="page">
+                    <div class="page-content">
+                        <h3>08. Multimedia</h3>
+                        <div class="tag-desc">
+                            &lt;video&gt; / &lt;audio&gt; – Embeds media.<br>
+                            &lt;source&gt; – Specifies the media path.
+                        </div>
+                        <div class="snippet-section">
+                            <div class="snippet-container">
+                                <pre><code class="language-html" contenteditable="true" spellcheck="false">&lt;video width="200" controls&gt;
+  &lt;source src="movie.mp4" type="video/mp4"&gt;
+  Video not supported.
+&lt;/video&gt;
+&lt;br&gt;
+&lt;audio controls&gt;
+  &lt;source src="song.mp3" type="audio/mpeg"&gt;
+&lt;/audio&gt;</code></pre>
+                            </div>
+                            <button class="run-btn" data-output="out-media">Run Preview →</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 19: Multimedia Output -->
+                <div class="page">
+                    <div class="page-content">
+                        <h3>Output: Media Controls</h3>
+                        <div class="output-wrapper pro-output">
+                            <div class="output-header">Live Rendering</div>
+                            <div class="output-container" id="out-media">
+                                <div class="placeholder">Click "Run Preview" on the left</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 20: iframe -->
+                <div class="page">
+                    <div class="page-content">
+                        <h3>09. Inline Frame</h3>
+                        <div class="tag-desc">
+                            &lt;iframe&gt; – Embeds another document (like YouTube).
+                        </div>
+                        <div class="snippet-section">
+                            <div class="snippet-container">
+                                <pre><code class="language-html" contenteditable="true" spellcheck="false">&lt;iframe src="https://example.com" 
+        width="100%" height="150"&gt;
+&lt;/iframe&gt;</code></pre>
+                            </div>
+                            <button class="run-btn" data-output="out-iframe">Run Preview →</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 21: iframe Output -->
+                <div class="page">
+                    <div class="page-content">
+                        <h3>Output: Embeds</h3>
+                        <div class="output-wrapper pro-output">
+                            <div class="output-header">Live Rendering</div>
+                            <div class="output-container" id="out-iframe">
+                                <div class="placeholder">Click "Run Preview" on the left</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 22: Lists I -->
+                <div class="page">
+                    <div class="page-content">
+                        <h3>10. Unordered & Ordered Lists</h3>
+                        <div class="tag-desc">
+                            &lt;ul&gt; – Bullets.<br>
+                            &lt;ol&gt; – Numbers.<br>
+                            &lt;li&gt; – Single item.
+                        </div>
+                        <div class="snippet-section">
+                            <div class="snippet-container">
+                                <pre><code class="language-html" contenteditable="true" spellcheck="false">&lt;ul&gt;
+  &lt;li&gt;Coffee&lt;/li&gt;
+  &lt;li&gt;Tea&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+  &lt;li&gt;HTML&lt;/li&gt;
+  &lt;li&gt;CSS&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+                            </div>
+                            <button class="run-btn" data-output="out-list1">Run Preview →</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 23: Lists I Output -->
+                <div class="page">
+                    <div class="page-content">
+                        <h3>Output: Item Lists</h3>
+                        <div class="output-wrapper pro-output">
+                            <div class="output-header">Live Rendering</div>
+                            <div class="output-container" id="out-list1">
+                                <div class="placeholder">Click "Run Preview" on the left</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 24: Description Lists -->
+                <div class="page">
+                    <div class="page-content">
+                        <h3>11. Description Lists</h3>
+                        <div class="tag-desc">
+                            &lt;dl&gt; – List container.<br>
+                            &lt;dt&gt; – The Term.<br>
+                            &lt;dd&gt; – The Description.
+                        </div>
+                        <div class="snippet-section">
+                            <div class="snippet-container">
+                                <pre><code class="language-html" contenteditable="true" spellcheck="false">&lt;dl&gt;
+  &lt;dt&gt;SASS&lt;/dt&gt;
+  &lt;dd&gt;A CSS preprocessor.&lt;/dd&gt;
+  &lt;dt&gt;API&lt;/dt&gt;
+  &lt;dd&gt;Application Interface.&lt;/dd&gt;
+&lt;/dl&gt;</code></pre>
+                            </div>
+                            <button class="run-btn" data-output="out-list2">Run Preview →</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 25: Lists II Output -->
+                <div class="page">
+                    <div class="page-content">
+                        <h3>Output: Terms & Desc</h3>
+                        <div class="output-wrapper pro-output">
+                            <div class="output-header">Live Rendering</div>
+                            <div class="output-container" id="out-list2">
+                                <div class="placeholder">Click "Run Preview" on the left</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 26: Layout Containers -->
+                <div class="page">
+                    <div class="page-content">
+                        <h3>12. Layout Containers</h3>
+                        <div class="tag-desc">
+                            &lt;div&gt; – Block-level container.<br>
+                            &lt;span&gt; – Inline container.
+                        </div>
+                        <div class="snippet-section">
+                            <div class="snippet-container">
+                                <pre><code class="language-html" contenteditable="true" spellcheck="false">&lt;div style="background:#eee; padding:10px;"&gt;
+  Block Level Content
+&lt;/div&gt;
+&lt;p&gt;This is a &lt;span style="color:red"&gt;red span&lt;/span&gt;.&lt;/p&gt;</code></pre>
+                            </div>
+                            <button class="run-btn" data-output="out-div">Run Preview →</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 27: Layout Containers Output -->
+                <div class="page">
+                    <div class="page-content">
+                        <h3>Output: Containers</h3>
+                        <div class="output-wrapper pro-output">
+                            <div class="output-header">Live Rendering</div>
+                            <div class="output-container" id="out-div">
+                                <div class="placeholder">Click "Run Preview" on the left</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 28: Semantic Elements I -->
+                <div class="page">
+                    <div class="page-content">
+                        <h3>13. Semantic Elements I</h3>
+                        <div class="tag-desc">
+                            &lt;header&gt; – Page top content.<br>
+                            &lt;footer&gt; – Page bottom content.<br>
+                            &lt;nav&gt; – Navigation links container.
+                        </div>
+                        <div class="snippet-section">
+                            <div class="snippet-container">
+                                <pre><code class="language-html" contenteditable="true" spellcheck="false">&lt;header&gt;My Portfolio&lt;/header&gt;
+&lt;nav&gt;
+  &lt;a href="#"&gt;Home&lt;/a&gt; | &lt;a href="#"&gt;About&lt;/a&gt;
+&lt;/nav&gt;
+&lt;footer&gt;© 2024&lt;/footer&gt;</code></pre>
+                            </div>
+                            <button class="run-btn" data-output="out-sem1">Run Preview →</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 29: Semantic I Output -->
+                <div class="page">
+                    <div class="page-content">
+                        <h3>Output: Navigation</h3>
+                        <div class="output-wrapper pro-output">
+                            <div class="output-header">Live Rendering</div>
+                            <div class="output-container" id="out-sem1">
+                                <div class="placeholder">Click "Run Preview" on the left</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 30: Semantic Elements II -->
+                <div class="page">
+                    <div class="page-content">
+                        <h3>14. Semantic Elements II</h3>
+                        <div class="tag-desc">
+                            &lt;main&gt; – Primary content.<br>
+                            &lt;section&gt; – Generic section.<br>
+                            &lt;article&gt; – Independent content piece.<br>
+                            &lt;aside&gt; – Sidebar content.
+                        </div>
+                        <div class="snippet-section">
+                            <div class="snippet-container">
+                                <pre><code class="language-html" contenteditable="true" spellcheck="false">&lt;main&gt;
+  &lt;section&gt;Section A&lt;/section&gt;
+  &lt;article&gt;Blog Post&lt;/article&gt;
+  &lt;aside&gt;Sidebar&lt;/aside&gt;
+&lt;/main&gt;</code></pre>
+                            </div>
+                            <button class="run-btn" data-output="out-sem2">Run Preview →</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 31: Semantic II Output -->
+                <div class="page">
+                    <div class="page-content">
+                        <h3>Output: Structure</h3>
+                        <div class="output-wrapper pro-output">
+                            <div class="output-header">Live Rendering</div>
+                            <div class="output-container" id="out-sem2">
+                                <div class="placeholder">Click "Run Preview" on the left</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 32: Tables I -->
+                <div class="page">
+                    <div class="page-content">
+                        <h3>15. Table Basics</h3>
+                        <div class="tag-desc">
+                            &lt;table&gt; – Container.<br>
+                            &lt;tr&gt; – Row.<br>
+                            &lt;th&gt; – Header Cell.<br>
+                            &lt;td&gt; – Data Cell.
+                        </div>
+                        <div class="snippet-section">
+                            <div class="snippet-container">
+                                <pre><code class="language-html" contenteditable="true" spellcheck="false">&lt;table border="1"&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Name&lt;/th&gt;
+    &lt;th&gt;Score&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Alex&lt;/td&gt;
+    &lt;td&gt;95&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+                            </div>
+                            <button class="run-btn" data-output="out-table1">Run Preview →</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 33: Tables I Output -->
+                <div class="page">
+                    <div class="page-content">
+                        <h3>Output: Grid Data</h3>
+                        <div class="output-wrapper pro-output">
+                            <div class="output-header">Live Rendering</div>
+                            <div class="output-container" id="out-table1">
+                                <div class="placeholder">Click "Run Preview" on the left</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 34: Table Groups -->
+                <div class="page">
+                    <div class="page-content">
+                        <h3>16. Advanced Tables</h3>
+                        <div class="tag-desc">
+                            &lt;thead&gt;, &lt;tbody&gt;, &lt;tfoot&gt; – Logical grouping for semantics.
+                        </div>
+                        <div class="snippet-section">
+                            <div class="snippet-container">
+                                <pre><code class="language-html" contenteditable="true" spellcheck="false">&lt;table border="1" width="100%"&gt;
+  &lt;thead&gt;&lt;tr&gt;&lt;th&gt;Total&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+  &lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Stats&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;
+  &lt;tfoot&gt;&lt;tr&gt;&lt;td&gt;Footer&lt;/td&gt;&lt;/tr&gt;&lt;/tfoot&gt;
+&lt;/table&gt;</code></pre>
+                            </div>
+                            <button class="run-btn" data-output="out-table2">Run Preview →</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 35: Tables II Output -->
+                <div class="page">
+                    <div class="page-content">
+                        <h3>Output: Semantic Tables</h3>
+                        <div class="output-wrapper pro-output">
+                            <div class="output-header">Live Rendering</div>
+                            <div class="output-container" id="out-table2">
+                                <div class="placeholder">Click "Run Preview" on the left</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 36: Forms I -->
+                <div class="page">
+                    <div class="page-content">
+                        <h3>17. Forms & Basics</h3>
+                        <div class="tag-desc">
+                            &lt;form&gt; – Container.<br>
+                            &lt;label&gt; – Field description.<br>
+                            &lt;input&gt; – Text field.<br>
+                            &lt;button&gt; – Clickable.
+                        </div>
+                        <div class="snippet-section">
+                            <div class="snippet-container">
+                                <pre><code class="language-html" contenteditable="true" spellcheck="false">&lt;form&gt;
+  &lt;label&gt;Name:&lt;/label&gt;
+  &lt;input type="text"&gt;
+  &lt;button type="button"&gt;Go&lt;/button&gt;
+&lt;/form&gt;</code></pre>
+                            </div>
+                            <button class="run-btn" data-output="out-form1">Run Preview →</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 37: Forms I Output -->
+                <div class="page">
+                    <div class="page-content">
+                        <h3>Output: User Input</h3>
+                        <div class="output-wrapper pro-output">
+                            <div class="output-header">Live Rendering</div>
+                            <div class="output-container" id="out-form1">
+                                <div class="placeholder">Click "Run Preview" on the left</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 38: Select & Textarea -->
+                <div class="page">
+                    <div class="page-content">
+                        <h3>18. Dropdowns & Textareas</h3>
+                        <div class="tag-desc">
+                            &lt;select&gt; & &lt;option&gt; – Dropdowns.<br>
+                            &lt;textarea&gt; – Multi-line text.
+                        </div>
+                        <div class="snippet-section">
+                            <div class="snippet-container">
+                                <pre><code class="language-html" contenteditable="true" spellcheck="false">&lt;select&gt;
+  &lt;option&gt;Option A&lt;/option&gt;
+  &lt;option&gt;Option B&lt;/option&gt;
+&lt;/select&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;textarea rows="3"&gt;&lt;/textarea&gt;</code></pre>
+                            </div>
+                            <button class="run-btn" data-output="out-form2">Run Preview →</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 39: Forms II Output -->
+                <div class="page">
+                    <div class="page-content">
+                        <h3>Output: Selection</h3>
+                        <div class="output-wrapper pro-output">
+                            <div class="output-header">Live Rendering</div>
+                            <div class="output-container" id="out-form2">
+                                <div class="placeholder">Click "Run Preview" on the left</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 40: Fieldset -->
+                <div class="page">
+                    <div class="page-content">
+                        <h3>19. Fieldset & Legend</h3>
+                        <div class="tag-desc">
+                            &lt;fieldset&gt; – Groups fields.<br>
+                            &lt;legend&gt; – Group title.
+                        </div>
+                        <div class="snippet-section">
+                            <div class="snippet-container">
+                                <pre><code class="language-html" contenteditable="true" spellcheck="false">&lt;fieldset&gt;
+  &lt;legend&gt;Personal Info&lt;/legend&gt;
+  Age: &lt;input type="number"&gt;
+&lt;/fieldset&gt;</code></pre>
+                            </div>
+                            <button class="run-btn" data-output="out-form3">Run Preview →</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 41: Forms III Output -->
+                <div class="page">
+                    <div class="page-content">
+                        <h3>Output: Grouping</h3>
+                        <div class="output-wrapper pro-output">
+                            <div class="output-header">Live Rendering</div>
+                            <div class="output-container" id="out-form3">
+                                <div class="placeholder">Click "Run Preview" on the left</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 42: Conclusion -->
+                <div class="page">
+                    <div class="page-content">
+                        <div class="badge">Success</div>
+                        <h2>Revision<br>Complete</h2>
+                        <br></br>
+                        <div class="divider"></div>
+                        <p>You have reviewed all 50+ essential tags.</p>
+                        <div class="flip-hint">Happy Coding!</div>
+                    </div>
+                </div>
+
+                <!-- Page 43: Back Cover -->
+                <div class="page page-cover" data-density="hard">
+                    <div class="page-content">
+                        <h2>The End</h2>
+                        <div class="divider"></div>
+                        <p>Master HTML • Build the Future</p>
+                        <div class="footer-note" style="margin-top: 2rem; opacity: 0.5; font-size: 0.7rem;">
+                            Pro Edition • Revision Guide
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="prev-page">← Previous</button>
+            <span id="page-num">1 / 43</span>
+            <button id="next-page">Next →</button>
+        </div>
+        
+        <div class="author-credit" style="margin-top: 2rem; font-weight: 600; color: var(--primary); text-align: center;">
+            Made by S.Nachammai
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/page-flip/dist/js/page-flip.browser.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
