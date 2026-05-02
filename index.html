@@ -324,13 +324,16 @@
                         </div>
                         <div class="snippet-section">
                             <div class="snippet-container">
-                                <pre><code class="language-html" contenteditable="true" spellcheck="false">&lt;video width="200" controls&gt;
-  &lt;source src="movie.mp4" type="video/mp4"&gt;
-  Video not supported.
-&lt;/video&gt;
-&lt;br&gt;
-&lt;audio controls&gt;
-  &lt;source src="song.mp3" type="audio/mpeg"&gt;
+                                <pre><code class="language-html" contenteditable="true" spellcheck="false">&lt;!-- YouTube Embed --&gt;
+&lt;iframe width="100%" height="150" 
+        src="https://www.youtube.com/embed/k9_JbEaRxso" 
+        frameborder="0" allowfullscreen&gt;
+&lt;/iframe&gt;
+
+&lt;!-- Audio Example --&gt;
+&lt;audio controls style="margin-top:10px;"&gt;
+  &lt;source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg"&gt;
+  Audio not supported.
 &lt;/audio&gt;</code></pre>
                             </div>
                             <button class="run-btn" data-output="out-media">Run Preview →</button>
